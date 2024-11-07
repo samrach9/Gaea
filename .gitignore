@@ -58,6 +58,7 @@ ExportedObj/
 */DS_Store
 *.dag
 Artifacts/
+Library/Artifacts
 
 # Unity3D generated file on crash reports
 sysinfo.txt

@@ -63,6 +63,8 @@ Temps/Burst/
 Library/BurstCache/
 Temp/
 /Gaea/Library
+/Gaea/Logs
+/Gaea/Gaea/Logs
 *.bhc
 /Gaea/Gaea/Library/BurstCache
 /Gaea/Gaea/Temp

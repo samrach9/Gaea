@@ -58,8 +58,8 @@ ExportedObj/
 */DS_Store
 *.dag
 Artifacts/
-Library/Artifacts
-Temps/Burst
+Library/Artifacts/
+Temps/Burst/
 Library/BurstCache/
 Temp/
 

@@ -59,6 +59,9 @@ ExportedObj/
 *.dag
 Artifacts/
 Library/Artifacts
+Temps/Burst
+Library/BurstCache/
+Temp/
 
 # Unity3D generated file on crash reports
 sysinfo.txt

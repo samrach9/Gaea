@@ -52,6 +52,12 @@ ExportedObj/
 *.pdb.meta
 *.mdb.meta
 
+#things arran added
+*.o
+*.bhc
+*/DS_Store
+*.dag
+
 # Unity3D generated file on crash reports
 sysinfo.txt
 

@@ -62,6 +62,10 @@ Library/Artifacts/
 Temps/Burst/
 Library/BurstCache/
 Temp/
+/Gaea/Library
+*.bhc
+/Gaea/Library/BurstCache
+/Gaea/Temp
 
 # Unity3D generated file on crash reports
 sysinfo.txt

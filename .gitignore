@@ -66,6 +66,13 @@ Temp/
 *.bhc
 /Gaea/Library/BurstCache
 /Gaea/Temp
+Gaea/[Oo]bj/
+Gaea/[Bb]uild/
+Gaea/[Bb]uilds/
+Gaea/[Ll]ogs/
+Gaea/[Uu]ser[Ss]ettings/
+
+
 
 # Unity3D generated file on crash reports
 sysinfo.txt

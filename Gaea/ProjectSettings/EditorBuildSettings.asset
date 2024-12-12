@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Beach.unity
     guid: 00191f8c40d4c4c8bb86ed0de068797a
+  - enabled: 1
+    path: Assets/Scenes/TreeMiniGame.unity
+    guid: 4ffc5d2dece234b4ab83de8578697a7e
   m_configObjects: {}

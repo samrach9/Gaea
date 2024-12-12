@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TreeMiniGame.unity
     guid: 4ffc5d2dece234b4ab83de8578697a7e
+  - enabled: 1
+    path: Assets/Scenes/SignIn.unity
+    guid: 99d61c5a6936c47ebaa76b5635dedbde
   m_configObjects: {}

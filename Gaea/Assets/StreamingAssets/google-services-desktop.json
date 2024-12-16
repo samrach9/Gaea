@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "254639403995",
+    "project_id": "gaea-859fc",
+    "storage_bucket": "gaea-859fc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254639403995:ios:c497a8f1804d85f694edfe",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Gaea"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ3xMZUEusYLvZp8YS3OEFJc9FTs49zuQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

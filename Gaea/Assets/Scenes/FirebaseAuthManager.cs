@@ -1,3 +1,4 @@
+using Firebase;
 using Firebase.Auth;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,7 +17,18 @@ public class FirebaseAuthManager : MonoBehaviour
     void Start()
     {
         // Initialize Firebase Auth
-        auth = FirebaseAuth.DefaultInstance;
+        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
+            if (task.Result == DependencyStatus.Available)
+            {
+                // Initialize Firebase Auth
+                auth = FirebaseAuth.DefaultInstance;
+                Debug.Log("Firebase initialized successfully.");
+            }
+            else
+            {
+                Debug.LogError($"Firebase dependencies not resolved: {task.Result}");
+            }
+        });
 
         // Add a listener to the sign-up button
         if (signUpButton != null)

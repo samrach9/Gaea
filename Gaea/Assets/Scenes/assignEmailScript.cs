@@ -1,3 +1,6 @@
+
+
+
 using UnityEngine;
 using UnityEngine.UI; // For Button
 using TMPro; // For TextMeshPro Input Field
@@ -12,22 +15,15 @@ public class assignEmailScript : MonoBehaviour
     public TMP_InputField emailInputField; 
     public TMP_InputField passwordInputField; 
     public Button setNameButton; // Reference to the Button
-    //public TextMeshProUGUI statusText; // Optional: Status feedback
 
     async void Start()
     {
-        // Initialize Unity Services
         await UnityServices.InitializeAsync();
-
-        // Sign in anonymously (or check if already signed in)
         if (!AuthenticationService.Instance.IsSignedIn)
         {
             await AuthenticationService.Instance.SignInAnonymouslyAsync();
             Debug.Log($"Signed in with Player ID: {AuthenticationService.Instance.PlayerId}");
         }
-
-        // Optional: Add button listener if not assigned in the Inspector
-        //setNameButton.onClick.AddListener(SetPlayerName);
     }
 
     public async void SetPlayerName()
@@ -35,13 +31,11 @@ public class assignEmailScript : MonoBehaviour
         string playerName = nameInputField.text; // Get the input text
         string playerEmail = emailInputField.text;
         string playerPassword = passwordInputField.text;
-
         if (string.IsNullOrEmpty(playerName))
         {
             Debug.LogWarning("Player name is empty.");
             return;
         }
-
         try
         {
             await AuthenticationService.Instance.UpdatePlayerNameAsync(playerName);
@@ -53,7 +47,10 @@ public class assignEmailScript : MonoBehaviour
 
             // Example: Writing data to Firestore
             DocumentReference docRef = db.Collection("Users").Document(playerName);
-            await docRef.SetAsync(new { Name = playerName, Email = playerEmail, password = playerPassword, Timestamp = Timestamp.GetCurrentTimestamp() })
+            await docRef.SetAsync(new { ID = AuthenticationService.Instance.PlayerId, Name = playerName, Email = playerEmail, password = playerPassword, scene = "backyard", level = 0, Timestamp = Timestamp.GetCurrentTimestamp() })
+            
+            //DocumentReference docRef = db.Collection("Users").Document(playerName);
+            //await docRef.SetAsync(new { Name = playerName, Email = playerEmail, password = playerPassword, Timestamp = Timestamp.GetCurrentTimestamp() })
             .ContinueWithOnMainThread(task =>
             {
                 if (task.IsCompleted)
@@ -75,4 +72,3 @@ public class assignEmailScript : MonoBehaviour
         }
     }
 }
-

@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SignUp.unity
     guid: d0a12db7c285d42b0b8599babb3f672d
+  - enabled: 1
+    path: Assets/Scenes/trashgame.unity
+    guid: e2c6b94e626f84fc1878c40375075deb
   m_configObjects: {}

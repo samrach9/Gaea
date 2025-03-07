@@ -8,6 +8,7 @@ public class TreeMiniGame : MonoBehaviour
     public Button button; // The button that triggers the scene change
     public SpriteRenderer RightPageObject; // The sprite renderer of the target object
     public int scenenum; // The scene to load
+    public SpriteRenderer player;
 
     [Header("Sprites")]
     public Sprite TreeSprite; // The specific sprite to check for
@@ -31,6 +32,9 @@ public class TreeMiniGame : MonoBehaviour
         if (RightPageObject.sprite == TreeSprite)
         {
             SceneManager.LoadScene(scenenum);
+            //player.transform.position = new Vector3(-7.05f, 3.38f, player.transform.position.z);
+            
+            //move sprite's location here!!
         }
         else
         {
@@ -38,3 +42,5 @@ public class TreeMiniGame : MonoBehaviour
         }
     }
 }
+//7.05-5.41 = 164
+//3.38-2.09 = 1.29

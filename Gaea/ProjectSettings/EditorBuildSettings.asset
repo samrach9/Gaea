@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/treeminigamescenes/startpage.unity
     guid: 5c3af5b20d73b4cd9831901229d617fb
+  - enabled: 1
+    path: Assets/Scenes/plantermini/planterminifr.unity
+    guid: d242a95c4da664be28e92c9daf270a2b
+  - enabled: 1
+    path: Assets/Scenes/plantermini/intro.unity
+    guid: cfb9dbcf805314172adf9b337c6eeae4
   m_configObjects: {}

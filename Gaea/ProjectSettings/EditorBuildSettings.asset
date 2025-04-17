@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Beach.unity
     guid: 00191f8c40d4c4c8bb86ed0de068797a
   - enabled: 1
-    path: Assets/Scenes/TreeMiniGame.unity
+    path: Assets/Scenes/treeminigamescenes/TreeMiniGame.unity
     guid: 4ffc5d2dece234b4ab83de8578697a7e
   - enabled: 1
     path: Assets/Scenes/SignIn.unity
@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SignUp.unity
     guid: d0a12db7c285d42b0b8599babb3f672d
+  - enabled: 1
+    path: Assets/Scenes/treeminigamescenes/startpage.unity
+    guid: 5c3af5b20d73b4cd9831901229d617fb
   m_configObjects: {}

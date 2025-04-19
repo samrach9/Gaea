@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6260b515f62bc4cf3b219cac7e48c291
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - invasivePlantPrefab: {fileID: 179743281956663101, guid: 7cbb801c73f7842e3ad99b438acd7948, type: 3}
+  - realPlantPrefab: {fileID: 174926206881543662, guid: a410f5fc0d29c45ce96fde18148c9975, type: 3}
+  - spawnArea: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

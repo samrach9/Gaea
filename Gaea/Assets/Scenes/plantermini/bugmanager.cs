@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class BugManager : MonoBehaviour
 {
     public GameObject[] bugObjects; 
@@ -61,6 +63,12 @@ public class BugManager : MonoBehaviour
             if (waitB != null) yield return waitB;
 
             UpdateScoreText();
+            if (score>=120){
+                Debug.Log("JUST WON!!! GAME");
+                yield return new WaitForSeconds(1f);
+                SceneManager.LoadScene("endPM");
+                yield break;
+            }
         }
     }
 

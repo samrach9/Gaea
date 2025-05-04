@@ -522,10 +522,10 @@ RectTransform:
   - {fileID: 943794905}
   m_Father: {fileID: 1533160782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0675, y: 0.5}
+  m_AnchorMin: {x: 0.048750002, y: 0.46600002}
   m_AnchorMax: {x: 0.18624999, y: 0.860767}
-  m_AnchoredPosition: {x: -13.5, y: -3.5}
-  m_SizeDelta: {x: -45, y: -132}
+  m_AnchoredPosition: {x: 1.6499939, y: 0.75}
+  m_SizeDelta: {x: 5.25, y: -1.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &332570065
 MonoBehaviour:
@@ -1257,7 +1257,7 @@ MonoBehaviour:
   RightPageObject: {fileID: 1672590474}
   scenenum: 9
   player: {fileID: 1343435050}
-  TreeSprite: {fileID: 21300000, guid: 9e4a82d2b31b344e9ab426e7e7a1e0f0, type: 3}
+  TreeSprite: {fileID: 21300000, guid: 901de754bd318499da2d2e5aebf3b802, type: 3}
 --- !u!1 &613759834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3201,7 +3201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 332570065}
   targetSpriteRenderer: {fileID: 1672590474}
-  newSprite: {fileID: 21300000, guid: 9e4a82d2b31b344e9ab426e7e7a1e0f0, type: 3}
+  newSprite: {fileID: 21300000, guid: 901de754bd318499da2d2e5aebf3b802, type: 3}
   originalSprite: {fileID: 0}
 --- !u!4 &1672590476
 Transform:
@@ -3285,7 +3285,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.58875, y: 0.11525484}
   m_AnchorMax: {x: 0.89625007, y: 0.21610583}
-  m_AnchoredPosition: {x: -4, y: -6.0000076}
+  m_AnchoredPosition: {x: -4, y: -6}
   m_SizeDelta: {x: -86, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718720428
@@ -3629,7 +3629,7 @@ GameObject:
   - component: {fileID: 1770266138}
   - component: {fileID: 1770266139}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: MINIGAMEPOPUP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

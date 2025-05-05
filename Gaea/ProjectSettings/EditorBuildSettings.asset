@@ -44,4 +44,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/plantermini/intro.unity
     guid: cfb9dbcf805314172adf9b337c6eeae4
+  - enabled: 1
+    path: Assets/Scenes/SortingGame/sortinggamestart.unity
+    guid: bea07868ef72f46ce90d1c5f7aacc3bb
+  - enabled: 1
+    path: Assets/Scenes/SortingGame/trashminigame.unity
+    guid: 757729a19e0744bf8bb067042246ab0b
+  - enabled: 1
+    path: Assets/Scenes/InvasiveSpeciesGame/InvasiveStartScreen.unity
+    guid: 4572a09bf75a04c9ca33c1bb156e8c86
+  - enabled: 1
+    path: Assets/Scenes/InvasiveSpeciesGame/InvasiveSpeciesGame.unity
+    guid: 7ea53e063bf834bf19989103b9907ca3
   m_configObjects: {}

@@ -121,16 +121,24 @@ TextureImporter:
       name: garbagewrapper
       rect:
         serializedVersion: 2
-        x: 51
-        y: 65
+        x: 52
+        y: 67
         width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 18
+      alignment: 9
+      pivot: {x: 0.48792267, y: 0.51271296}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
+      outline:
+      - - {x: -8.5, y: -7}
+        - {x: -9.5, y: 5}
+        - {x: -4.5, y: 9}
+        - {x: 9.5, y: -6}
+      physicsShape:
+      - - {x: -5.5, y: -8}
+        - {x: -8.5, y: -5}
+        - {x: 9.5, y: -5}
+        - {x: 6.5, y: -8}
+      tessellationDetail: 0.84
       bones: []
       spriteID: 552faf1e5a4154f7aac9ba90e5750663
       internalID: -1588814936

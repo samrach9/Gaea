@@ -6,7 +6,7 @@ public class PlantSpawner : MonoBehaviour
     public GameObject realPlantPrefab;
     public Transform spawnArea;
     public float spawnInterval = 0.75f;
-    public float launchForce = 5f; // Adjust for higher jumps
+    public float launchForce = 5f; 
 
     private float timeElapsed = 0f;
 

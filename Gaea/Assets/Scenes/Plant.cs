@@ -11,11 +11,11 @@ public class Plant : MonoBehaviour
             if (isInvasive)
             {
                 InvasiveGameManager.instance.InvasiveSlashed();
-                Destroy(gameObject); // Remove invasive species
+                Destroy(gameObject);
             }
             else
             {
-                InvasiveGameManager.instance.RealPlantSlashed(); // Penalty for slashing real plants
+                InvasiveGameManager.instance.RealPlantSlashed(); 
             }
         }
     }

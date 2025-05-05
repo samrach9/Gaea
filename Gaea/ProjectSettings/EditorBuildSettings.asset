@@ -21,10 +21,13 @@ EditorBuildSettings:
     path: Assets/Scenes/map.unity
     guid: 22ea3dc2436184ec28eda80d21385db0
   - enabled: 1
+    path: Assets/Scenes/beach scene/TrashInfo.unity
+    guid: 3295d899e48174a3586be4d21c4615c4
+  - enabled: 1
     path: Assets/Scenes/Backyard.unity
     guid: b9f4b4062417744159c53b392fd247b6
   - enabled: 1
-    path: Assets/Scenes/Beach.unity
+    path: Assets/Scenes/beach scene/Beach.unity
     guid: 00191f8c40d4c4c8bb86ed0de068797a
   - enabled: 1
     path: Assets/Scenes/treeminigamescenes/TreeMiniGame.unity
@@ -39,8 +42,17 @@ EditorBuildSettings:
     path: Assets/Scenes/treeminigamescenes/startpage.unity
     guid: 5c3af5b20d73b4cd9831901229d617fb
   - enabled: 1
+    path: Assets/Scenes/bamboogame/BambooMiniGame.unity
+    guid: 2720dbd414b084fd88fce3e5f8a2b09e
+  - enabled: 1
     path: Assets/Scenes/plantermini/planterminifr.unity
     guid: d242a95c4da664be28e92c9daf270a2b
+  - enabled: 1
+    path: Assets/Scenes/bamboogame/BambooIntro.unity
+    guid: fd55d9e882730452b96cfa62d1e6a8f3
+  - enabled: 1
+    path: Assets/Scenes/bamboogame/BambooWinInfo.unity
+    guid: 44e343dc2ede34cae8b5380eee8d2479
   - enabled: 1
     path: Assets/Scenes/plantermini/intro.unity
     guid: cfb9dbcf805314172adf9b337c6eeae4

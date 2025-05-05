@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: 6551202789550481582e39bcf8e159a2
   - enabled: 1
     path: Assets/Scenes/map.unity
-    guid: 9c692025a091245c1a5e6de9c92c9b32
+    guid: 22ea3dc2436184ec28eda80d21385db0
   - enabled: 1
     path: Assets/Scenes/Backyard.unity
     guid: b9f4b4062417744159c53b392fd247b6
@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Beach.unity
     guid: 00191f8c40d4c4c8bb86ed0de068797a
   - enabled: 1
-    path: Assets/Scenes/TreeMiniGame.unity
+    path: Assets/Scenes/treeminigamescenes/TreeMiniGame.unity
     guid: 4ffc5d2dece234b4ab83de8578697a7e
   - enabled: 1
     path: Assets/Scenes/SignIn.unity
@@ -35,4 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SignUp.unity
     guid: d0a12db7c285d42b0b8599babb3f672d
+  - enabled: 1
+    path: Assets/Scenes/treeminigamescenes/startpage.unity
+    guid: 5c3af5b20d73b4cd9831901229d617fb
+  - enabled: 1
+    path: Assets/Scenes/plantermini/planterminifr.unity
+    guid: d242a95c4da664be28e92c9daf270a2b
+  - enabled: 1
+    path: Assets/Scenes/plantermini/intro.unity
+    guid: cfb9dbcf805314172adf9b337c6eeae4
+  - enabled: 1
+    path: Assets/Scenes/treeminigamescenes/endPageTM.unity
+    guid: 9aea189c67a3645bc942d170020a7cc0
   m_configObjects: {}

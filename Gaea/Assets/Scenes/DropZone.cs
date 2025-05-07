@@ -6,7 +6,7 @@ public class DropZone : MonoBehaviour
     public string correctTag;
     public static int correctDrops = 0;
     public static int requiredDrops = 5;
-    public int nextSceneIndex = 1;
+    public int nextSceneIndex = 20;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

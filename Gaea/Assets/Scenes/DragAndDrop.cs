@@ -13,7 +13,7 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public static int correctDrops = 0;
     public static int requiredDrops = 5;
-    public int nextSceneIndex = 1;
+    public int nextSceneIndex = 20;
 
     void OnMouseDown()
     {

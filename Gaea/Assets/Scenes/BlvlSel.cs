@@ -21,7 +21,7 @@ public class BlvlSel : MonoBehaviour
         mooovie.onClick.AddListener(OnBeachButtonClicked);
     }
     public async void OnBeachButtonClicked()
-    {
+    {/*
 
         FirebaseFirestore db;
         db = FirebaseFirestore.DefaultInstance;
@@ -32,7 +32,7 @@ public class BlvlSel : MonoBehaviour
         QuerySnapshot snapshot = await query.GetSnapshotAsync();
         if (snapshot.Count > 0)
         {
-            DocumentSnapshot userDoc = snapshot.Documents[0];
+            //DocumentSnapshot userDoc = snapshot.Documents[0];
             DocumentReference docRef = userDoc.Reference;
 
             // Update the 'level' field to "beach"
@@ -42,6 +42,6 @@ public class BlvlSel : MonoBehaviour
             };
             await docRef.UpdateAsync(updates);
         }
-        SceneManager.LoadScene("Beach");
+        SceneManager.LoadScene("Beach");*/
     }
 }

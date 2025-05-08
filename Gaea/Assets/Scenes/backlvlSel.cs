@@ -21,7 +21,7 @@ public class backlvlSel : MonoBehaviour
         mooovie.onClick.AddListener(OnBeachButtonClicked);
     }
     public async void OnBeachButtonClicked()
-    {
+    {/*
 
         FirebaseFirestore db;
         db = FirebaseFirestore.DefaultInstance;
@@ -42,6 +42,6 @@ public class backlvlSel : MonoBehaviour
             };
             await docRef.UpdateAsync(updates);
         }
-        SceneManager.LoadScene("Beach");
+        SceneManager.LoadScene("Beach");*/
     }
 }

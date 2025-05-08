@@ -59,4 +59,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/treeminigamescenes/endPageTM.unity
     guid: 9aea189c67a3645bc942d170020a7cc0
+  - enabled: 1
+    path: Assets/Scenes/beach scene/TrashInfo2.unity
+    guid: 9547fb72d7b524371bf7b7bad971ded3
+  - enabled: 1
+    path: Assets/Scenes/beach scene/TrashInfo3.unity
+    guid: d5585282309334903b1989186974ed54
   m_configObjects: {}

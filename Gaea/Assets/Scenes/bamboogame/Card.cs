@@ -7,6 +7,8 @@ public class Card : MonoBehaviour
 {
     [SerializeField] private Image iconImage;
 
+    //public Sprite hiddenIconSprite;
+    //public Sprite iconSprite;
     public Sprite hiddenIconSprite;
     public Sprite iconSprite;
 
@@ -17,16 +19,19 @@ public class Card : MonoBehaviour
     public void OnCardClick()
     {
         controller.SetSelected(this);
+        Debug.Log("iwas slcicked");
     }
 
     public void SetIconSprite(Sprite sp)
     {
         iconSprite=sp;
+        //iconImage=sp;
     }
 
     public void Show()
     {
         iconImage.sprite=iconSprite;
+        //iconImage = iconSprite;
         isSelected=true;
     }
 

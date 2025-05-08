@@ -6,6 +6,7 @@ using Unity.Services.Core;
 using Firebase.Firestore;
 using Firebase.Extensions;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class signInScript : MonoBehaviour
 {
@@ -58,6 +59,7 @@ public class signInScript : MonoBehaviour
                         if (emailIN == emailFire && passwordIN == passFire){
                             string name = userData["Name"].ToString();
                             Debug.Log($"Welcome back, {name}!");
+                            SceneManager.LoadScene("Backyard");
                         }
                         }
                     }

@@ -8,6 +8,7 @@ using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Firebase.Firestore;
 using Firebase.Extensions;
+using UnityEngine.SceneManagement;
 
 public class assignEmailScript : MonoBehaviour
 {
@@ -56,6 +57,7 @@ public class assignEmailScript : MonoBehaviour
                 if (task.IsCompleted)
                 {
                     Debug.Log("Data successfully written to Firestore!");
+                    SceneManager.LoadScene("Backyard");
                 }
                 else
                 {

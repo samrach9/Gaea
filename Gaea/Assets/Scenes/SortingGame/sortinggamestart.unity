@@ -331,8 +331,8 @@ Transform:
   m_GameObject: {fileID: 890277434}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -495.2527}
-  m_LocalScale: {x: 47.77406, y: 47.774055, z: 47.77406}
+  m_LocalPosition: {x: 0.99999, y: 1, z: 0.009474192}
+  m_LocalScale: {x: 48.333622, y: 48.33361, z: 48.333622}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1983414596}
@@ -474,14 +474,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 823823632}
         m_TargetAssemblyTypeName: SceneMover, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 3
+        m_MethodName: ChangeSceneString
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 11
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Assets/Scenes/SortingGame/trashminigame.unity
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1211509505

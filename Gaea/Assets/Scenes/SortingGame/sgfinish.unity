@@ -575,14 +575,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 566091600}
         m_TargetAssemblyTypeName: SceneMover, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 3
+        m_MethodName: ChangeSceneString
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 21
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Assets/Scenes/CarbonCredits/CCMiniGame.unity
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1031084427

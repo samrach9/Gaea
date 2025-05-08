@@ -53,12 +53,10 @@ public class InvasiveGameManager : MonoBehaviour
     private void EndGame()
     {
         Debug.Log("Game Over!");
-        // Show Game Over UI or restart option
     }
 
     private void WinGame()
     {
         Debug.Log("You Win!");
-        // Display victory screen
     }
 }

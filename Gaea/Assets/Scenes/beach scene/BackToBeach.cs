@@ -7,6 +7,7 @@ public class BackToBeach : MonoBehaviour
 {
     public void ToBeach()
     {
+        Debug.Log("iwas slcicked");
         SceneManager.LoadScene("Beach");
     }
 }

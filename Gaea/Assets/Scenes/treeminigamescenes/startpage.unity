@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 12466250}
   - component: {fileID: 12466251}
+  - component: {fileID: 12466252}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -166,6 +167,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e9909bdb05749d685a68ac67ccc664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &12466252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12466249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85de34f2e9f8344ef924f884b0d8f601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniNameIN: TreeMiniGame
 --- !u!1 &47488930
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,10 +263,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 12466251}
-        m_TargetAssemblyTypeName: SceneMover, Assembly-CSharp
+      - m_Target: {fileID: 12466252}
+        m_TargetAssemblyTypeName: CompletedMini, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

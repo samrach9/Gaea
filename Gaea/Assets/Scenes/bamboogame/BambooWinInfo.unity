@@ -320,16 +320,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 283870128}
-        m_TargetAssemblyTypeName: GoBackToBackyard, Assembly-CSharp
-        m_MethodName: GoToBackyard
-        m_Mode: 1
+      - m_Target: {fileID: 2120161782}
+        m_TargetAssemblyTypeName: SceneMover2, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: CCMiniGame
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &457218267
@@ -565,7 +565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.35625005, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -280304.28, y: 145225.98}
+  m_AnchoredPosition: {x: -280304.2, y: 145225.98}
   m_SizeDelta: {x: 10990, y: 2432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1524931667
@@ -943,6 +943,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2120161780}
   - component: {fileID: 2120161779}
+  - component: {fileID: 2120161781}
+  - component: {fileID: 2120161782}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -977,6 +979,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1973684998}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2120161781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120161778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29ce9f1b614849d7bf797a24d2039af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniNameIN: BambooMiniGame
+--- !u!114 &2120161782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120161778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5c37edd455c4329a2392fffb34f07e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

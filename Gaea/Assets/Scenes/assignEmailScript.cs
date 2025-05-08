@@ -9,6 +9,8 @@ using Unity.Services.Core;
 using Firebase.Firestore;
 using Firebase.Extensions;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+
 
 public class assignEmailScript : MonoBehaviour
 {
@@ -46,9 +48,26 @@ public class assignEmailScript : MonoBehaviour
             
             db = FirebaseFirestore.DefaultInstance;
 
-            // Example: Writing data to Firestore
             DocumentReference docRef = db.Collection("Users").Document(playerName);
-            await docRef.SetAsync(new { ID = AuthenticationService.Instance.PlayerId, Name = playerName, Email = playerEmail, StreakCount = 1, password = playerPassword, scene = "backyard", carbonCredits = 0, Timestamp = Timestamp.GetCurrentTimestamp() })
+            /*List<string> miniComp = new List<string> { "none" };
+            await docRef.SetAsync(new { pID = AuthenticationService.Instance.PlayerId, Name = playerName, Email = playerEmail, StreakCount = 1, password = playerPassword, miniJustFin = "none", carbonCredits = 0, Timestamp = Timestamp.GetCurrentTimestamp() })*/
+            List<string> miniComp = new List<string> { "none" };
+            List<string> minisFRname = new List<string> { "none" };
+
+            Dictionary<string, object> data = new Dictionary<string, object>
+            {
+                { "pID", AuthenticationService.Instance.PlayerId },
+                { "Name", playerName },
+                { "Email", playerEmail },
+                { "StreakCount", 1 },
+                { "password", playerPassword },
+                { "minisFRname", minisFRname },
+                { "CarbonCredits", 0 },
+                { "miniComp", miniComp }, // ← Inline array added here
+                { "Timestamp", Timestamp.GetCurrentTimestamp() }
+            };
+
+            await docRef.SetAsync(data)
             
             //DocumentReference docRef = db.Collection("Users").Document(playerName);
             //await docRef.SetAsync(new { Name = playerName, Email = playerEmail, password = playerPassword, Timestamp = Timestamp.GetCurrentTimestamp() })

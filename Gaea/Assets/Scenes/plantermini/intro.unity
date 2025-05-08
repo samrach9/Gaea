@@ -309,6 +309,8 @@ GameObject:
   m_Component:
   - component: {fileID: 70879268}
   - component: {fileID: 70879269}
+  - component: {fileID: 70879270}
+  - component: {fileID: 70879271}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -343,6 +345,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e9909bdb05749d685a68ac67ccc664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &70879270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70879267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5c37edd455c4329a2392fffb34f07e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &70879271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70879267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85de34f2e9f8344ef924f884b0d8f601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniNameIN: planterminifr
 --- !u!1 &134972710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,16 +2250,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 70879269}
-        m_TargetAssemblyTypeName: SceneMover, Assembly-CSharp
+      - m_Target: {fileID: 70879271}
+        m_TargetAssemblyTypeName: CompletedMini, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 8
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: planterminifr
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &619123682

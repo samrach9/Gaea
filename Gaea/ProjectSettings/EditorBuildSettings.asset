@@ -83,4 +83,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CarbonCredits/CarbonCreditsHome.unity
     guid: b465ff006493545dca586ddd2ceaf346
+  - enabled: 1
+    path: Assets/Scenes/plantermini/endPM.unity
+    guid: 1c17f046855fe4122bcf43b01ea164a1
   m_configObjects: {}

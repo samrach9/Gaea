@@ -40,7 +40,7 @@ public class signInScript : MonoBehaviour
         CollectionReference usersRef = db.Collection("Users");
        // Query query = usersRef.WhereEqualTo("ID", AuthenticationService.Instance.PlayerId);
         Query query = usersRef
-            .WhereEqualTo("ID", AuthenticationService.Instance.PlayerId)
+            .WhereEqualTo("pID", AuthenticationService.Instance.PlayerId)
             .WhereEqualTo("Email", emailIN)
             .WhereEqualTo("password", passwordIN);
         query.GetSnapshotAsync().ContinueWithOnMainThread(task =>

@@ -121,6 +121,9 @@ public class miniMovement : MonoBehaviour
             if (justWON){
                 Debug.Log("JUST WON!!! GAME");
                 yield return new WaitForSeconds(1f);
+                string currentSceneName = SceneManager.GetActiveScene().name;
+                PlayerPrefs.SetString("Mini LastScene", currentSceneName);
+                PlayerPrefs.Save();
                 SceneManager.LoadScene("EndPageTM");
                 yield break;
             }

@@ -75,6 +75,9 @@ public class CardsController : MonoBehaviour
             if(matchCounts>=spritePairs.Count/2)
             {
                 Debug.Log("You win!");
+                string currentSceneName = SceneManager.GetActiveScene().name;
+                PlayerPrefs.SetString("Mini LastScene", currentSceneName);
+                PlayerPrefs.Save();
                 SceneManager.LoadScene("BambooWinInfo");
             }
         }

@@ -192,9 +192,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2113804627
+  m_SortingLayer: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0070cedd0371848a8b188ea5697c2996, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -289,16 +289,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1160350266}
-        m_TargetAssemblyTypeName: SceneMover, Assembly-CSharp
+      - m_Target: {fileID: 1160350268}
+        m_TargetAssemblyTypeName: SceneMover2, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Backyard
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &996209558
@@ -349,6 +349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160350267}
   - component: {fileID: 1160350266}
+  - component: {fileID: 1160350268}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -383,6 +384,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1160350268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160350265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5c37edd455c4329a2392fffb34f07e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1356224939
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,8 +545,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1381659668}
   - component: {fileID: 1381659669}
+  - component: {fileID: 1381659670}
   m_Layer: 0
-  m_Name: bugmanager
+  m_Name: creditmini
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -561,11 +575,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381659666}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ae580fff2e014f0d9c7fdb41b4f0af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Streak: {fileID: 0}
+  CreditNum: {fileID: 0}
+  mooovie: {fileID: 0}
+--- !u!114 &1381659670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381659666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228fc191ff3a649e383f202c8df6cd7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CreditNum: {fileID: 2142322195}
+  mooovie: {fileID: 996209557}
 --- !u!1 &1493037836
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,8 +665,8 @@ Canvas:
   m_GameObject: {fileID: 1493037836}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1356224942}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -645,8 +676,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2113804627
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &1493037840
 RectTransform:
@@ -905,7 +936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -319.98, y: -394.2}
+  m_AnchoredPosition: {x: -154, y: -215}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2142322195
@@ -928,7 +959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 5
+  m_text: xx
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0fce92457f8e64a64ac75751594c2656, type: 2}
   m_sharedMaterial: {fileID: 3682979945365801479, guid: 0fce92457f8e64a64ac75751594c2656, type: 2}
@@ -937,8 +968,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279835092
-  m_fontColor: {r: 0.8301887, g: 0.09789959, b: 0.09789959, a: 1}
+    rgba: 4279882825
+  m_fontColor: {r: 0.28584793, g: 0.83137256, b: 0.0980392, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -955,8 +986,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 3000
+  m_fontSizeBase: 3000
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -991,7 +1022,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -90.28156}
+  m_margin: {x: -7527.094, y: 0, z: -8227.139, w: -90.28202}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

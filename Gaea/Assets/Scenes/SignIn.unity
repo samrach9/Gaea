@@ -181,8 +181,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0fce92457f8e64a64ac75751594c2656, type: 2}
+  m_sharedMaterial: {fileID: 3682979945365801479, guid: 0fce92457f8e64a64ac75751594c2656, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1540,7 +1540,7 @@ GameObject:
   - component: {fileID: 1320563076}
   - component: {fileID: 1320563075}
   m_Layer: 5
-  m_Name: setNameTestButton
+  m_Name: signINBytton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1610,9 +1610,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1688079057}
-        m_TargetAssemblyTypeName: assignEmailScript, Assembly-CSharp
-        m_MethodName: SetPlayerName
+      - m_Target: {fileID: 1688079058}
+        m_TargetAssemblyTypeName: signInScript, Assembly-CSharp
+        m_MethodName: SignInUser
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1882,7 +1882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.305, y: 0.513}
   m_AnchorMax: {x: 0.47625002, y: 0.6018234}
-  m_AnchoredPosition: {x: 211, y: 340.99997}
+  m_AnchoredPosition: {x: 211, y: 340.99994}
   m_SizeDelta: {x: 7.799999, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355577589
@@ -2081,7 +2081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9.699997, y: -18.7}
+  m_AnchoredPosition: {x: -0.099998474, y: 0.10000038}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521612435
@@ -2542,8 +2542,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1688079056}
   - component: {fileID: 1688079057}
+  - component: {fileID: 1688079058}
   m_Layer: 0
-  m_Name: assignemailObject
+  m_Name: signinObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2571,7 +2572,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688079055}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ce58340671f64cbb8a667aa5b8a8a0d, type: 3}
   m_Name: 
@@ -2580,6 +2581,21 @@ MonoBehaviour:
   emailInputField: {fileID: 0}
   passwordInputField: {fileID: 0}
   setNameButton: {fileID: 1320563075}
+--- !u!114 &1688079058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688079055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2031271cb06a44b56b394109f9f54454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emailInputField: {fileID: 452350655}
+  passwordInputField: {fileID: 1112680786}
+  SignInButton: {fileID: 1320563075}
 --- !u!1 &1767594963
 GameObject:
   m_ObjectHideFlags: 0

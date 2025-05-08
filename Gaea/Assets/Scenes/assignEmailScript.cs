@@ -47,7 +47,7 @@ public class assignEmailScript : MonoBehaviour
 
             // Example: Writing data to Firestore
             DocumentReference docRef = db.Collection("Users").Document(playerName);
-            await docRef.SetAsync(new { ID = AuthenticationService.Instance.PlayerId, Name = playerName, Email = playerEmail, password = playerPassword, scene = "backyard", level = 0, Timestamp = Timestamp.GetCurrentTimestamp() })
+            await docRef.SetAsync(new { ID = AuthenticationService.Instance.PlayerId, Name = playerName, Email = playerEmail, StreakCount = 1, password = playerPassword, scene = "backyard", carbonCredits = 0, Timestamp = Timestamp.GetCurrentTimestamp() })
             
             //DocumentReference docRef = db.Collection("Users").Document(playerName);
             //await docRef.SetAsync(new { Name = playerName, Email = playerEmail, password = playerPassword, Timestamp = Timestamp.GetCurrentTimestamp() })

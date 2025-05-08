@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctTag: TrashBin
-  nextSceneIndex: 2
+  nextSceneIndex: 20
 --- !u!61 &239613662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -967,7 +967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctTag: CompostBin
-  nextSceneIndex: 2
+  nextSceneIndex: 20
 --- !u!1 &623882873
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,8 +994,8 @@ Transform:
   m_GameObject: {fileID: 623882873}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -242.42, y: -131.59, z: 10}
-  m_LocalScale: {x: 10.25049, y: 10.25049, z: 10.25049}
+  m_LocalPosition: {x: -316.31, y: -197.42, z: 10}
+  m_LocalScale: {x: 9.602063, y: 9.602063, z: 9.602063}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1459805967}
@@ -1142,7 +1142,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 20
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctTag: RecycleBin
-  nextSceneIndex: 2
+  nextSceneIndex: 20
 --- !u!61 &1389137011
 BoxCollider2D:
   m_ObjectHideFlags: 0

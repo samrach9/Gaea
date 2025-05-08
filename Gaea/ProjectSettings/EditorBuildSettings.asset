@@ -59,4 +59,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/treeminigamescenes/endPageTM.unity
     guid: 9aea189c67a3645bc942d170020a7cc0
+  - enabled: 1
+    path: Assets/Scenes/InvasiveSpeciesGame/InvasiveStart.unity
+    guid: 2d1aecda8ca0f48d98462b6cf6f49910
+  - enabled: 1
+    path: Assets/Scenes/InvasiveSpeciesGame/InvasiveSpeciesGame.unity
+    guid: 7ea53e063bf834bf19989103b9907ca3
+  - enabled: 1
+    path: Assets/Scenes/InvasiveSpeciesGame/ISFinish.unity
+    guid: 37994079ae5e4465980b9d3e09254e42
+  - enabled: 1
+    path: Assets/Scenes/SortingGame/newsortgamestart.unity
+    guid: 0ae92797682c54ea093add6b3573e1db
+  - enabled: 1
+    path: Assets/Scenes/SortingGame/trashminigame.unity
+    guid: 757729a19e0744bf8bb067042246ab0b
+  - enabled: 1
+    path: Assets/Scenes/SortingGame/sgfinish.unity
+    guid: dbfde5a4dabd84e5bbd6f05a74cb7051
+  - enabled: 1
+    path: Assets/Scenes/CarbonCredits/CCMiniGame.unity
+    guid: facb92a474ab54ce993bb0e668d204a1
+  - enabled: 1
+    path: Assets/Scenes/CarbonCredits/CarbonCreditsHome.unity
+    guid: b465ff006493545dca586ddd2ceaf346
   m_configObjects: {}

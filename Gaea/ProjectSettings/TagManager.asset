@@ -8,6 +8,9 @@ TagManager:
   - RecycleBin
   - TrashBin
   - CompostBin
+  - ground
+  - nextLine
+  - trash
   layers:
   - Default
   - TransparentFX

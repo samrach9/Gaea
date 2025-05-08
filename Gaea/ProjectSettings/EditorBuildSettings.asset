@@ -95,4 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/plantermini/endPM.unity
     guid: 1c17f046855fe4122bcf43b01ea164a1
+  - enabled: 1
+    path: Assets/Scenes/Resource.unity
+    guid: dec496b8ad865450f9757b7e1a5dcacf
   m_configObjects: {}

@@ -19,4 +19,11 @@ public class TrashFact : MonoBehaviour
     {
         SceneManager.LoadScene("TrashInfo3");
     }
+
+    public void ToCrabGame()
+    {
+        Debug.Log("scrotum");
+        SceneManager.LoadScene("crabminigame");
+
+    }
 }

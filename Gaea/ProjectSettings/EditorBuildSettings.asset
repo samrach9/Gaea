@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LogInScene.unity
     guid: 6551202789550481582e39bcf8e159a2
   - enabled: 1
+    path: Assets/Scenes/beach scene/crabgame/losecrabgame.unity
+    guid: 9d74a571dc3744912bc88117bbe7d77c
+  - enabled: 1
+    path: Assets/Scenes/beach scene/crabgame/wincrabgame.unity
+    guid: 637cdfda956974d48b5e3b95dc33be7a
+  - enabled: 1
     path: Assets/Scenes/map.unity
     guid: 22ea3dc2436184ec28eda80d21385db0
   - enabled: 1
@@ -74,6 +80,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SortingGame/trashminigame.unity
     guid: 757729a19e0744bf8bb067042246ab0b
+  - enabled: 1
+    path: Assets/Scenes/beach scene/crabgame/crabminigame.unity
+    guid: d5a9e525d24b54d6691310f47b11a7ab
   - enabled: 1
     path: Assets/Scenes/SortingGame/sgfinish.unity
     guid: dbfde5a4dabd84e5bbd6f05a74cb7051

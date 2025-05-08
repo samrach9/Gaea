@@ -26,4 +26,17 @@ public class TrashFact : MonoBehaviour
         SceneManager.LoadScene("crabminigame");
 
     }
+
+    public void ToBeach()
+    {
+        Debug.Log("iwas slcicked");
+        SceneManager.LoadScene("Beach");
+    }
+
+    public void ToIntroCrabGame()
+    {
+        Debug.Log("scrotum");
+        SceneManager.LoadScene("introcrabgame");
+
+    }
 }

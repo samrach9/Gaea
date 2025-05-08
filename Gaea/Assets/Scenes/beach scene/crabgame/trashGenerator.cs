@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class trashGenerator : MonoBehaviour
 {
@@ -9,11 +10,16 @@ public class trashGenerator : MonoBehaviour
     public float currentSpeed;
 
     public float SpeedMultiplier; 
+    public AudioSource bgMusic;
 
     // Start is called before the first frame update
+    void Start(){
+        Time.timeScale = 1f;
+        currentSpeed = MinSpeed;
+    }
+    
     void Awake()
     {
-        currentSpeed = MinSpeed;
         generateTrash();
     }
 

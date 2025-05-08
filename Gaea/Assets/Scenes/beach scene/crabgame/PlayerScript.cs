@@ -46,6 +46,9 @@ public class PlayerScript : MonoBehaviour
 
         if (score >= 100)
         {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            PlayerPrefs.SetString("Mini LastScene", currentSceneName);
+            PlayerPrefs.Save();
             SceneManager.LoadScene("wincrabgame");
         }
     }

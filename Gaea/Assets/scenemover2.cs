@@ -62,7 +62,26 @@ public class SceneMover2 : MonoBehaviour
                     PlayerPrefs.SetString("LastScene", currentSceneName);
                     PlayerPrefs.Save();
                     SceneManager.LoadScene(sceneName);
-
+/*
+ FirebaseFirestore db;
+        db = FirebaseFirestore.DefaultInstance;
+        Debug.Log($"Player ID: {AuthenticationService.Instance.PlayerId}");
+        CollectionReference usersRef = db.Collection("Users");
+        Debug.Log("Running Firestore query for ID = " + AuthenticationService.Instance.PlayerId);
+        Query query = usersRef.WhereEqualTo("pID", AuthenticationService.Instance.PlayerId);
+        query.GetSnapshotAsync().ContinueWithOnMainThread(task =>
+            {
+                if (task.IsCompleted)
+                {
+                    QuerySnapshot snapshot = task.Result;
+                    if (snapshot.Count > 0)
+                    {
+                        foreach (DocumentSnapshot document in snapshot.Documents) {
+                
+                        Dictionary<string, object> userData = document.ToDictionary();
+                        
+                        string carbos = userData["CarbonCredits"].ToString();
+                        */
 
 
                     //SceneManager.LoadScene(miniNameIN);
@@ -91,3 +110,24 @@ public class SceneMover2 : MonoBehaviour
     }
 
 }
+
+/*
+ FirebaseFirestore db;
+        db = FirebaseFirestore.DefaultInstance;
+        Debug.Log($"Player ID: {AuthenticationService.Instance.PlayerId}");
+        CollectionReference usersRef = db.Collection("Users");
+        Debug.Log("Running Firestore query for ID = " + AuthenticationService.Instance.PlayerId);
+        Query query = usersRef.WhereEqualTo("pID", AuthenticationService.Instance.PlayerId);
+        query.GetSnapshotAsync().ContinueWithOnMainThread(task =>
+            {
+                if (task.IsCompleted)
+                {
+                    QuerySnapshot snapshot = task.Result;
+                    if (snapshot.Count > 0)
+                    {
+                        foreach (DocumentSnapshot document in snapshot.Documents) {
+                
+                        Dictionary<string, object> userData = document.ToDictionary();
+                        
+                        string carbos = userData["CarbonCredits"].ToString();
+                        */

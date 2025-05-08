@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerScript : MonoBehaviour
 {
     public float JumpForce;
-    float score; 
+    float score = 0;
 
     [SerializeField]
     bool isGrounded = false; 

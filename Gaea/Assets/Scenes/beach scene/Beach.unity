@@ -1300,7 +1300,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1242487519}
         m_TargetAssemblyTypeName: TrashFact, Assembly-CSharp
-        m_MethodName: ToCrabGame
+        m_MethodName: ToIntroCrabGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

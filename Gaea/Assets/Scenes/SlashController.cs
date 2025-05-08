@@ -6,13 +6,13 @@ public class SlashDetector : MonoBehaviour
 {
     private Vector3 lastMousePosition;
     public float minSlashSpeed = 5f;
-    public GameObject slashEffectPrefab; // Reference to the slash effect
+    public GameObject slashEffectPrefab;
     public int invSlashedCount = 0;
     public int nextSceneIndex = 2;
 
     void Update()
     {
-        if (Input.GetMouseButton(0)) // Detects mouse drag or touch
+        if (Input.GetMouseButton(0))
         {
             Vector3 currentMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             currentMousePosition.z = 0;
@@ -35,7 +35,7 @@ public class SlashDetector : MonoBehaviour
         {
             if (collider.CompareTag("Invasive"))
             {
-                Destroy(collider.gameObject); // Remove invasive species
+                Destroy(collider.gameObject); 
                 Debug.Log("Invasive plant slashed!");
                 invSlashedCount++;
                 if (invSlashedCount == 5){

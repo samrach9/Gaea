@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // For scene switching
+using UnityEngine.SceneManagement;
 
 public class DropZone : MonoBehaviour
 {

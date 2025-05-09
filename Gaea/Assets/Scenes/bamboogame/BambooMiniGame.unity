@@ -179,7 +179,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 3, y: 3}
-  m_Spacing: {x: 0.5, y: 0.5}
+  m_Spacing: {x: 1, y: 1}
   m_Constraint: 2
   m_ConstraintCount: 2
 --- !u!1 &556670036
@@ -440,7 +440,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 378.26038}
-  m_LocalScale: {x: 44.71216, y: 44.71216, z: 42.297256}
+  m_LocalScale: {x: 90, y: 90, z: 42.297256}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 556670040}
@@ -460,10 +460,10 @@ MonoBehaviour:
   cardPreFab: {fileID: 5634068741431749159, guid: 31d071e99d604430eb5ecc8dbc3d5387, type: 3}
   gridTransform: {fileID: 385672452}
   sprites:
-  - {fileID: 21300000, guid: 9418a70ce61684266adae24e99dcc78b, type: 3}
-  - {fileID: 21300000, guid: d7c6e7cc292d841b3a339fea3177a8a8, type: 3}
-  - {fileID: 21300000, guid: 758e42b77e7714bebac41d8111a3bbc5, type: 3}
-  - {fileID: 21300000, guid: f5a966cee7ef0404780744d5d49784f8, type: 3}
+  - {fileID: 21300000, guid: 65cba33251a1748218ebb2ad88064841, type: 3}
+  - {fileID: 21300000, guid: d31edbab8c4114db198f475fe12da5e3, type: 3}
+  - {fileID: 21300000, guid: c32c638e996f347cdb99ec259bc2e08b, type: 3}
+  - {fileID: 21300000, guid: 6abd78b2f286642789fed4fa7185ba41, type: 3}
 --- !u!1 &1314980077
 GameObject:
   m_ObjectHideFlags: 0

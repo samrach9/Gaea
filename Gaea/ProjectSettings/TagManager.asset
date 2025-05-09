@@ -11,6 +11,8 @@ TagManager:
   - ground
   - nextLine
   - trash
+  - SpecialObject
+  - Obstacle
   layers:
   - Default
   - TransparentFX

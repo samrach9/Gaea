@@ -30,8 +30,8 @@ public class PlantSpawner : MonoBehaviour
         Rigidbody2D rb = plant.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
-            float randomForce = Random.Range(launchForce * 0.8f, launchForce * 1.2f); // Randomize slightly
-            float randomDirection = Random.Range(-1f, 1f); // Slight curve
+            float randomForce = Random.Range(launchForce * 0.8f, launchForce * 1.2f);
+            float randomDirection = Random.Range(-1f, 1f); 
             rb.velocity = new Vector2(randomDirection, randomForce);
         }
     }

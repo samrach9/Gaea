@@ -82,14 +82,14 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             if (correctDrops >= requiredDrops)
             {
                 Debug.Log("Game Completed!");
-                // Directly load the next scene (for debugging)
+                // Directly load the next scene
                 SceneManager.LoadScene(nextSceneIndex);
             }
         }
         else
         {
             Debug.Log("Incorrect! Resetting position.");
-            transform.position = originalPosition; // Reset position if incorrect
+            transform.position = originalPosition; 
         }
     }
 

@@ -359,7 +359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.29000002, y: 0.45000002}
   m_AnchorMax: {x: 0.35500002, y: 0.5565402}
-  m_AnchoredPosition: {x: -58.000008, y: 163}
+  m_AnchoredPosition: {x: -58, y: 163}
   m_SizeDelta: {x: -2, y: -5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &42558331
@@ -2611,7 +2611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 1718720430}
   RightPageObject: {fileID: 1959945682}
-  scenenum: 21
+  scenenum: 29
   player: {fileID: 1343435050}
   TreeSprite: {fileID: 21300000, guid: 9cc33e6c021c146f2b2cda26da195c57, type: 3}
 --- !u!1 &809998704

@@ -27,12 +27,12 @@ public class DropZone : MonoBehaviour
         else
         {
             Debug.Log("Wrong bin!");
-            collision.transform.position = collision.GetComponent<DragAndDrop>().originalPosition; // Reset position if dropped incorrectly
+            collision.transform.position = collision.GetComponent<DragAndDrop>().originalPosition; 
         }
     }
 
     private void LoadNextScene()
     {
-        SceneManager.LoadScene(nextSceneIndex); // Load the next scene
+        SceneManager.LoadScene(nextSceneIndex);
     }
 }

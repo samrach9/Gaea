@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Backyard.unity
     guid: 51222bd9e0f424c8f87702f7dee0a625
   - enabled: 1
-    path: Assets/Scenes/beach scene/crabgame/introcrabgame.unity
-    guid: 6ab6423ecb6c6449cad5e2da0f87a937
-  - enabled: 1
     path: Assets/Scenes/LogInScene.unity
     guid: 6551202789550481582e39bcf8e159a2
+  - enabled: 1
+    path: Assets/Scenes/beach scene/crabgame/introcrabgame.unity
+    guid: 6ab6423ecb6c6449cad5e2da0f87a937
   - enabled: 1
     path: Assets/Scenes/beach scene/crabgame/losecrabgame.unity
     guid: 9d74a571dc3744912bc88117bbe7d77c

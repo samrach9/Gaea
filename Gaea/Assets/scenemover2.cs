@@ -67,6 +67,7 @@ public class SceneMover2 : MonoBehaviour
             }
 
         } else {
+            Debug.Log("ARRAN IS HERE ERHE");
             //if (whereIcameFrom != "DefaultSceneName"){
             //    SceneManager.LoadScene(whereIcameFrom);
             //} else {
@@ -92,15 +93,6 @@ public class SceneMover2 : MonoBehaviour
                     if (minisList != null && minisList.Count > 0)
                     {
                         string lastMini = minisList[minisList.Count - 1].ToString();
-
-                        /*if (minisList.Contains("TreeMiniGame") || minisList.Contains("planterminifr") || minisList.Contains("BambooMiniGame") || minisList.Contains("InvasiveSpeciesGame") || minisList.Contains("trashminigame")  )
-                        {
-                            SceneManager.LoadScene("Backyard");
-                        } else if (minisList.Contains("crabminigame") ){
-                            SceneManager.LoadScene("Beach");
-                        } else {
-                            SceneManager.LoadScene("Forest");
-                        }*/
                         Debug.Log(lastMini);
                         Debug.Log("btw it was me");
                         if (lastMini == "TreeMiniGame" || lastMini == "planterminifr" || lastMini == "BambooMiniGame" || lastMini == "InvasiveSpeciesGame" || lastMini == "trashminigame")

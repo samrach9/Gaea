@@ -53,6 +53,7 @@ public class assignEmailScript : MonoBehaviour
             await docRef.SetAsync(new { pID = AuthenticationService.Instance.PlayerId, Name = playerName, Email = playerEmail, StreakCount = 1, password = playerPassword, miniJustFin = "none", carbonCredits = 0, Timestamp = Timestamp.GetCurrentTimestamp() })*/
             List<string> miniComp = new List<string> { "none" };
             List<string> minisFRname = new List<string> { "none" };
+            List<string> CardMiniGameTiming = new List<string> { "none" };
 
             Dictionary<string, object> data = new Dictionary<string, object>
             {
@@ -64,7 +65,9 @@ public class assignEmailScript : MonoBehaviour
                 { "minisFRname", minisFRname },
                 { "CarbonCredits", 0 },
                 { "miniComp", miniComp }, // ← Inline array added here
-                { "Timestamp", Timestamp.GetCurrentTimestamp() }
+                { "Timestamp", Timestamp.GetCurrentTimestamp() },
+                { "CardMiniGameTiming", CardMiniGameTiming }
+
             };
 
             await docRef.SetAsync(data)

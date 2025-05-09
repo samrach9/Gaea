@@ -76,7 +76,7 @@ public class assignEmailScript : MonoBehaviour
                 if (task.IsCompleted)
                 {
                     Debug.Log("Data successfully written to Firestore!");
-                    SceneManager.LoadScene("Backyard");
+                    SceneManager.LoadScene("map");
                 }
                 else
                 {

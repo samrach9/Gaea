@@ -107,7 +107,9 @@ public class SceneMover2 : MonoBehaviour
             SceneManager.LoadScene("Backyard");
         }*/
         }
+        //SceneManager.LoadScene("Backyard");
     }
+    
 
 }
 

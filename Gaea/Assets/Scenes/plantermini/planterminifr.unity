@@ -1350,12 +1350,9 @@ MonoBehaviour:
   - {fileID: 1666305786}
   - {fileID: 19884813}
   - {fileID: 32595963}
-  spawnInterval: 1.5
-  bugLifetime: 1.2
   scoreText: {fileID: 560865429}
   minSpawnPos: {x: -7.5, y: -4.5}
   maxSpawnPos: {x: 7.5, y: 3.5}
-  score: 0
 --- !u!1 &368820094
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,8 +3352,8 @@ Transform:
   m_GameObject: {fileID: 859711735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.009314002, y: -0.054151744, z: -26.588512}
-  m_LocalScale: {x: 49.988464, y: 49.647785, z: 46.57001}
+  m_LocalPosition: {x: -0.6, y: 0.05, z: -26.588512}
+  m_LocalScale: {x: 49.988464, y: 44.807125, z: 46.57001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1074062116}

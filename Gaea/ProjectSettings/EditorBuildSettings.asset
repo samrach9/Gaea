@@ -107,4 +107,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/forestStuff/slugGAME.unity
     guid: 886adea5b138e4b5aad2182b79163cf6
+  - enabled: 1
+    path: Assets/Scenes/forestStuff/bananaEND.unity
+    guid: 93d06cbbc460e43d982a812ce11bfaa8
   m_configObjects: {}

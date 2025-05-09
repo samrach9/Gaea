@@ -40,7 +40,7 @@ public class slugCOMPintro : MonoBehaviour
                 {
                     SceneManager.LoadScene("bananaEND");
                 } else {
-                    SceneManager.LoadScene(miniNameIN);
+                    SceneManager.LoadScene(2);
                 }
             }
     }

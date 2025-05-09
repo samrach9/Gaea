@@ -418,7 +418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 610228519}
   RightPageObject: {fileID: 1669425724}
-  scenenum: 15
+  scenenum: 0
   player: {fileID: 170097131}
   TreeSprite: {fileID: 21300000, guid: 49fc97bfba65b4b259ea8bac4191beb1, type: 3}
 --- !u!1 &170097123
